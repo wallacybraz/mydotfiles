@@ -14,6 +14,8 @@ fi
 
 alias ls='ls --color=auto'
 
+alias ll='ls -laph --color=auto'
+
 alias i3conf='vim /home/wallacy/.config/i3/config'
 
 export PATH="/home/wallacy/.gem/ruby/2.4.0/bin:$PATH"

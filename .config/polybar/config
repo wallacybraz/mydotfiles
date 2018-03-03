@@ -21,7 +21,7 @@ alert = #bd2c40
 
 [bar/main]
 width = 100%
-height = 27
+height = 23
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0
@@ -30,7 +30,7 @@ fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 3
+line-size = 1
 line-color = #f00
 
 border-size = 0
@@ -43,9 +43,9 @@ module-margin-left = 0
 module-margin-right = 5
 
 font-0 = fixed:pixelsize=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
-font-3 = "FontAwesome:pixelsize=10;0"
+font-1 = unifont:fontformat=truetype:size=8:antialias=true;0
+font-2 = siji:pixelsize=8;1
+font-3 = "FontAwesome:pixelsize=8;0"
 
 modules-left = i3 volume xwindow
 modules-center = filesystem wlan eth 
@@ -89,7 +89,7 @@ type = internal/bspwm
 
 label-focused = %index%
 label-focused-background = ${colors.background-alt}
-label-focused-padding = 5
+label-focused-padding = 2
 
 label-occupied = %index%
 label-occupied-padding = 2
