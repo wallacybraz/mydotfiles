@@ -64,7 +64,7 @@ fi
 alias grep='grep --colour=auto'
 alias egrep='egrep --colour=auto'
 alias fgrep='fgrep --colour=auto'
-
+alias unb='cd /home/wallacy/Documents/UnB/2018_1/'
 
 
 
@@ -81,3 +81,6 @@ export PATH="/home/wallacy/.gem/ruby/2.4.0/bin:$PATH:/opt/eclipse"
 export PATH="$PATH:$HOME/.rvm/bin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+
+

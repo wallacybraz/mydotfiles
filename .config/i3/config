@@ -145,6 +145,7 @@ bindsym $mod+Shift+0 move container to workspace 10
 # workspaces assigments
 assign [class="URxvt"] 1
 assign [class="Chromium"] 2
+assign [class="Firefox"] 2
 assign [class="Spotify"] 5
 assign [class="Pacmnf"] 4
 assign [class="Evince"] 3
